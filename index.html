@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>David's Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+</style>
+<script src=""></script>
+<body>
+
+<!-- <img src="img_la.jpg" alt="LA" style="width:100%"> -->
+
+<!-- Add navigation bar -->
+<div class="topnav">
+    <a class="active" href="#top">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+</div>
+
+
+<!-- Add hero section -->
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>I am David Konikowski</h1>
+    <p>And I'm a Software Engineering Student</p>
+    <button>Hire me</button>
+  </div>
+</div>
+
+
+<!-- Add about me section -->
+<div class="about-section" id="about">
+  <h1>About Me</h1>
+  <p>Some of my favorite hobbies and pastimes</p>
+</div>
+
+
+
+
+<!-- About me card 1 -->
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="RockClimbing.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Rock Climbing</h2>
+        <p class="title">I enjoy rock climbing</p>
+        <p style="font-size: 20px;">Part of Western Climbing Club (WCC)</p>
+        <a href='https://westernusc.store/product/western-climbing-club/'>WCC</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- About me card 2 -->
+  <div class="column">
+    <div class="card">
+      <img src="Biking.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Biking</h2>
+        <p class="title">I enjoy biking</p>
+        <p style="font-size: 20px;">Downhill mountain biking</p>
+        <p style="font-size: 15px;">Road biking</p>
+        <p style="font-size: 10px;">Cross-country biking</p>
+        <p>Find me at <a href='https://www.bolermountain.com/trails-rates-info/'>Boler Mountain</a></p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+<!-- Add work experience section -->
+<div class="work-experience">
+  <h1 id="experience">Work Experience</h1>
+  <p>Relevant engineering work experience</p>
+</div>
+  
+<!-- Work experience card 1 -->  
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="WEC.jpg" alt="Jane" style="width:300px;height:300px" class="center">
+      <div class="container">
+        <h2>WEC</h2>
+        <p class="title">Mousetrap Car</p>
+        <p>Used engineering knowledge to create a car from a set of materials as a team nd compete for distance</p>
+        <p><button class="button">Learn More</button></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Work experience card 2 -->  
+  <div class="column">
+    <div class="card">
+      <img src="1050.jpg" alt="Mike" style="width:300px;height:300px" class="center">
+      <div class="container">
+        <h2>Auto Injector</h2>
+        <p class="title">ES1050</p>
+        <p>Created an aid for the visually impaired to dose medicine</p>
+        <p>Won best in category</p>
+        <p><button class="button">Learn More</button></p>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Add contact section -->
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Me</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="cow2.ico" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Email</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit" id="contact">
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Add footer -->
+<div class="footer">
+  <p>David's portfolio</p>
+</div>
+
+</body>
+</html>
